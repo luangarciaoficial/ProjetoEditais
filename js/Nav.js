@@ -17,8 +17,12 @@ const sr = ScrollReveal ({
     reset: true
 })
 
+/*index*/
 sr.reveal('.home-text', {delay:300, origin:'left'})
 sr.reveal('.card', {delay:500, origin:'bottom'})
 sr.reveal('.social_icon', {delay:300, origin:'bottom'})
 sr.reveal('.menu_footer', {delay:500, origin:'bottom'})
 sr.reveal('footer p', {delay:700, origin:'bottom'})
+
+/*login*/
+sr.reveal('.box_login', {delay:500, origin:'left'})
