@@ -19,7 +19,7 @@
 
     <!-- Header -->
     <header>
-        <a href="index.html" class="logo">Fatec<span> Editais</span></a>
+        <a href="index.php" class="logo">Fatec<span> Editais</span></a>
         <div class="bx bx-menu" id="menu-icon"></div>
         <!-- Menu -->
         <ul class="navlist">
@@ -50,7 +50,7 @@
                 </div>
                 <div class="links">
                     <a href="#">Esqueceu a senha</a>
-                    <a href="#">Cadastrar</a>
+                    <a href="cadastrar.php">Cadastrar</a>
                 </div>
                     <input type="submit" value="Entrar">
             </form>

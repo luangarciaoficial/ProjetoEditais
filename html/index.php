@@ -19,7 +19,7 @@
 
     <!-- Header -->
     <header>
-        <a href="index.html" class="logo">Fatec<span> Editais</span></a>
+        <a href="index.php" class="logo">Fatec<span> Editais</span></a>
         <div class="bx bx-menu" id="menu-icon"></div>
         <!-- Menu -->
         <ul class="navlist">
@@ -28,7 +28,7 @@
         </ul>
         <!-- Botao login -->
         <div class="h-btn">
-            <a href="#" class="sign-in">Entrar</a>
+            <a href="login.php" class="sign-in">Entrar</a>
         </div>
     </header>
 

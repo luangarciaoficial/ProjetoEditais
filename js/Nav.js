@@ -26,3 +26,6 @@ sr.reveal('footer p', {delay:700, origin:'bottom'})
 
 /*login*/
 sr.reveal('.box_login', {delay:500, origin:'left'})
+
+sr.reveal('#efeito_register', {delay:500, origin:'left'})
+

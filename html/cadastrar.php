@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="..\css\nav.css">
+    <link rel="stylesheet" href="..\css\footer.css">
+    <link rel="stylesheet" href="..\css\cadastrar.css">
+    <script src="https://kit.fontawesome.com/20764abc40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.php" class="logo">Fatec<span> Editais</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Menu -->
+        <ul class="navlist">
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+        <!-- Botao login -->
+        <div class="h-btn">
+            <a href="#" class="sign-in">Entrar</a>
+        </div>
+    </header>
+
+    <!-- Section Register -->
+
+    <section class="Register_sec">
+        <div class="container" id="efeito_register">
+            <div class="title">Registrar</div>
+            <form action="#">
+                <div class="user-details">
+
+                    <div class="input-box">
+                        <span class="details">Nome Completo</span>
+                        <input type="text" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">E-mail</span>
+                        <input type="text" placeholder="Digite seu E-mail" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">CPF</span>
+                        <input type="text" placeholder="Digite seu CPF" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Data</span>
+                        <input type="text" placeholder="Digite novamente sua Data de nascimento" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Telefone</span>
+                        <input type="text" placeholder="Digite seu Telefone" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Senha</span>
+                        <input type="text" placeholder="Digite sua Senha" required>
+                    </div>
+                </div>
+                
+                <div class="title">Endereço</div>
+                <div class="user-details">
+
+                    <div class="input-box">
+                        <span class="details">CEP</span>
+                        <input type="text" placeholder="Digite novamente seu CEP" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Endereço Completo</span>
+                        <input type="text" placeholder="Digite novamente seu Endereço" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Numero</span>
+                        <input type="text" placeholder="Digite novamente sua Numero" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Bairro</span>
+                        <input type="text" placeholder="Digite novamente seu Bairro" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Estado</span>
+                        <input type="text" placeholder="Digite novamente seu Estado" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Selecione o Sexo</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Masculino</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Feminino</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Não me indentifico</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="registrar">
+                </div>
+            </form>
+        </div>
+    </section>
+   
+   
+    <!-- footer -->
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+        <ul class="menu_footer">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+        <p>@2022 DSM 1° Semestre | Direitos Reservado</p>
+    </footer>
+
+    <!-- Link JavaScript -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="text/javascript" src="../js/Nav.js"></script>
+
+</body>
+
+</html>
