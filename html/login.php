@@ -28,7 +28,7 @@
         </ul>
         <!-- Botao login -->
         <div class="h-btn">
-            <a href="#" class="sign-in">Entrar</a>
+            <a href="indexlogado.php" class="sign-in">Entrar</a>
         </div>
     </header>
 
