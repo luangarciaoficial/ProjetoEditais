@@ -130,7 +130,7 @@ footer .wave#wave4 {
     }
 }
 
-@media (max-width: 584px){
+@media (max-width: 720px){
     footer .wave {
        display: none;
     }
