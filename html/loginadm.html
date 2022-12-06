@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ADM</title>
+
+    <link rel="stylesheet" href="..\css\loginadm.css">
+    <script src="https://kit.fontawesome.com/20764abc40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    
+    <section class="fundo_login">
+        <div class="box_login">
+            <form class="form" action="../php/logar.php" method="POST">
+                <h2>Login Administrador</h2>
+                <div class="inputBox">
+                    <input type="email" name="email" required="required">
+                    <span>E-mail</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="senha" required="required">
+                    <span>Senha</span>
+                    <i></i>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Entrar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

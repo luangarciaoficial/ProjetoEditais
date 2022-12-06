@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     padding: 30px;
+    transition: all 0.5s ease;
 }
 
 .sec_edital .container .box {
@@ -106,6 +107,13 @@
     transform: translateY(-10px);
     cursor: pointer;
     background-color: #3586ff;
+}
+
+@media (max-width: 720px){
+    .sec_edital .container {
+        width: 400px;
+        transition: all 0.5s ease;
+    }
 }
 
 

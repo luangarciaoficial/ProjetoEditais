@@ -32,3 +32,6 @@ sr.reveal('#efeito_register', {delay:500, origin:'left'})
 
 /*infoedital*/
 sr.reveal('#efeito_infoedital', {delay:300, origin:'left'})
+
+/*edital*/
+sr.reveal('#efeito_edital', {delay:500, origin:'left'})
