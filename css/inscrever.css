@@ -1,0 +1,26 @@
+.Register_sec {
+    height: 800px;
+}
+
+input[type="file"] {
+    display: none;
+}
+.input-box label {
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 5px;
+    width: 100%;
+    background: linear-gradient(135deg, #ea1538, #3586ff);
+    color: #FFF;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.input-box label:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    background: #3586ff;
+}

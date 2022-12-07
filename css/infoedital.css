@@ -91,7 +91,10 @@ form .button {
     padding-top: 20px;
 }
 
-form .button input{
+form .button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 40px;
     width: 100%;
     outline: none;
@@ -103,9 +106,10 @@ form .button input{
     letter-spacing: 1px;
     background: linear-gradient(175deg, #ea1538, #3586ff);
     transition: all 0.5s ease;
+    text-decoration: none;
 }
 
-form .button input:hover{
+form .button a:hover{
     background: linear-gradient(135deg, #ea1538, #3586ff);
     cursor: pointer;
     transform: translateY(-5px);
